@@ -7,11 +7,13 @@
     "ethers": "^5.6.9"
   },
   "devDependencies": {
+    "@types/node": "^14.11.2",
     "gts": "^3.1.0",
-    "typescript": "^4.0.3",
-    "@types/node": "^14.11.2"
+    "ts-node": "^10.8.2",
+    "typescript": "^4.0.3"
   },
   "scripts": {
+    "run-script": "ts-node src/index.ts",
     "lint": "gts lint",
     "clean": "gts clean",
     "compile": "tsc",
