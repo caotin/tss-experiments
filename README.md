@@ -22,5 +22,5 @@ yarn recover-address --message "hello world" -r "..." -s "..." -v [0|1]
 
 to produce this output:
 ```
-
+{ recoveredAddress: '0x6D33805F7878Cc1f33fd804eCae36235db65d7ef' }
 ```
