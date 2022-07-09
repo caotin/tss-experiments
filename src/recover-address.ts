@@ -13,8 +13,10 @@ const argv = yargs(process.argv.slice(2))
 
 const {message, r, s, v} = argv;
 
-ethers.utils.recoverAddress(`0x${strToHex(message)}`, {
+const recoveredAddress = ethers.utils.recoverAddress(`0x${strToHex(message)}`, {
   r: `0x${r}`,
   s: `0x${s}`,
   v: v,
 });
+
+console.log({recoveredAddress});
