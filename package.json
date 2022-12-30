@@ -5,6 +5,10 @@
   "license": "MIT",
   "dependencies": {
     "@ethereumjs/tx": "^4.0.1",
+    "axios": "^1.2.0",
+    "bignumber.js": "^9.1.1",
+    "bitcoin-core": "^4.1.0",
+    "bitcore-lib": "^8.25.40",
     "ethereumjs-tx": "^2.1.2",
     "ethers": "^5.6.9",
     "yargs": "^17.5.1"
